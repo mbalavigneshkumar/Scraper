@@ -18,3 +18,4 @@ for i in 0..150
  ##puts "Voted #{i}"
  ##pp first_page
 end
+puts 'Done'
