@@ -6,7 +6,7 @@
 require 'scraperwiki'
 require 'mechanize'
 
-for i in 0..150
+for i in 0..1500
  agent = Mechanize.new
  page = agent.get('https://www.surveymonkey.com/r/?sm=zjAblj%2byq7LOd2auA8YfZw%3d%3d')
 
