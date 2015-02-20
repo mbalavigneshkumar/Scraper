@@ -8,7 +8,7 @@ require 'mechanize'
 
 for i in 0..150
  agent = Mechanize.new
- page = agent.get('https://www.surveymonkey.com/s.aspx?sm=zjAblj+yq7LOd2auA8YfZw==')
+ page = agent.get('https://www.surveymonkey.com/r/?sm=zjAblj%2byq7LOd2auA8YfZw%3d%3d')
 
  search_results = page.form_with(:name => 'surveyForm') do |form|
   ##form.radiobutton_with(:value => '8601846494').check
